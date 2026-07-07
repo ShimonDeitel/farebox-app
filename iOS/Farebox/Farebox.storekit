@@ -1,0 +1,40 @@
+{
+  "identifier" : "Farebox",
+  "nonRenewingSubscriptions" : [],
+  "products" : [],
+  "settings" : {},
+  "subscriptionGroups" : [
+    {
+      "id" : "farebox.subgroup",
+      "localizations" : [],
+      "name" : "Farebox Pro",
+      "subscriptions" : [
+        {
+          "adHocOffers" : [],
+          "codeOffers" : [],
+          "displayPrice" : "1.99",
+          "familyShareable" : false,
+          "groupNumber" : 1,
+          "internalID" : "farebox.pro.monthly",
+          "introductoryOffer" : null,
+          "localizations" : [
+            {
+              "description" : "Monthly totals by service and business vs personal split",
+              "displayName" : "Farebox Pro",
+              "locale" : "en_US"
+            }
+          ],
+          "productID" : "farebox.pro.monthly",
+          "recurringSubscriptionPeriod" : "P1M",
+          "referenceName" : "Farebox Pro Monthly",
+          "subscriptionGroupID" : "farebox.subgroup",
+          "type" : "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version" : {
+    "major" : 3,
+    "minor" : 0
+  }
+}
